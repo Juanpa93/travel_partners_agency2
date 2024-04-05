@@ -1,0 +1,24 @@
+#header, .header{
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(./img/imgPrincipal.png) !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-top: 0px;
+    margin-bottom: 17px !important;   
+}
+
+img{
+    border-radius: 7px;
+}
+section > div > div > img{
+    border-radius: 7px;
+    margin: 17px;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+img:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    scale: 1.4;
+}
